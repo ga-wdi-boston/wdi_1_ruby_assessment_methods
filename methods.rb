@@ -5,11 +5,11 @@ def square(x)
 end
 
 y = square(2)
-# What is the value of 'x' after this line executes?
+
+result = x # What will this line do?
 
 
 #### Question 2
-# What is the value of `age` after we call `get_older`?
 
 def get_older(age)
   age = age + 1
@@ -18,21 +18,23 @@ end
 age = 10
 get_older(age)
 
+result = age # What will this line do?
+
 
 #### Question 3
-# What is the return value of `jump` when called on the last line here?
 
 def how_high
   energy * energy
 end
 
 def jump
-  height = how_high()
+  height = how_high
   height - 2
 end
 
 energy = 2
-jump
+
+result = jump # What will this line do?
 
 
 #### Question 4
