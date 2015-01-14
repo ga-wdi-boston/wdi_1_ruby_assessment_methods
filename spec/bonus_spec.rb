@@ -1,3 +1,6 @@
+require 'spec_helper'
+require_relative '../lib/bonus.rb'
+
 RSpec.describe '#calculate takes three string parameters: Num1, Num2, Operator. Make it work.' do
   it 'It should have a method defined named calculate' do
     expect(method(:calculate))

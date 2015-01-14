@@ -13,7 +13,7 @@ This exercise will assess your knowledge in the following:
 
 - Fork and clone this repo, change into the `wdi_1_ruby_assessment_methods` directory.
 - Run `bundle install`
-- Run `rspec spec/assessment_spec.rb` and see that all 3 tests are currently failing.
+- Run `rspec spec/assessment_spec.rb` and see that all 7 tests are currently failing.
 - edit `lib/assessment.rb` to fulfill the tests in `spec/assessment_spec.rb`. Run `rspec spec/assessment_spec.rb` to see if your tests are passing
 - stage changes for commit `git add lib/assessment.rb`
 - create a git commit `git commit -m "YOUR MESSAGE"`
